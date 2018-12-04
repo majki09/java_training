@@ -1,5 +1,7 @@
 package com.majkisoft.first;
 
+import com.majkisoft.obiektyipakiety.Human;
+
 import java.util.Scanner;
 
 public class Main
@@ -71,6 +73,7 @@ public class Main
 		*/
 
 		// zad 1.8
+		/*
 		System.out.println("Podaj 3 liczby do sprawdzenia, czy da się znich zbudować trójkąt prostokątny:");
 		int a = input.nextInt();
 		int b = input.nextInt();
@@ -91,6 +94,10 @@ public class Main
 		}
 
 		System.out.println(drugi * drugi + trzeci * trzeci == max * max);
+		*/
+
+		// zad 2.1
+
 	}
 
 	private static int Dodawanie(int a, int b)
