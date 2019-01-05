@@ -39,6 +39,6 @@ public class Human
 
     public boolean isMale()
     {
-        return sex ? true : false;
+        return sex;
     }
 }
