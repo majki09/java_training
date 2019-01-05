@@ -18,7 +18,6 @@ public class cw6
             for (int i : j) {
                 suma += i;
             }
-
             
         return suma;
     }
