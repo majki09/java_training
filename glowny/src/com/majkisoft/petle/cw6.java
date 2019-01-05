@@ -19,6 +19,7 @@ public class cw6
                 suma += i;
             }
 
+            
         return suma;
     }
 }
