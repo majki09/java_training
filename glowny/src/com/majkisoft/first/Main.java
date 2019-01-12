@@ -6,11 +6,11 @@ import java.util.Scanner;
 
 public class Main
 {
-	public static void main(String[] args)
-	{
-		Scanner input = new Scanner(System.in);
+    public static void main(String[] args)
+    {
+        Scanner input = new Scanner(System.in);
 
-		// zad 1.1
+        // zad 1.1
 		/*
 		System.out.println("Podaj rok urodzenia: ");
 
@@ -19,7 +19,7 @@ public class Main
 		System.out.println("Masz " + (2018 - rokUrodzenia) + " lat");
 		*/
 
-		// zad 1.3
+        // zad 1.3
 		/*
 		System.out.println("Podaj dwie liczby do liczenia:");
 
@@ -36,7 +36,7 @@ public class Main
 		System.out.println("Iloczyn " + a + " i " + b + " wynosi " + Iloczyn(a, b));
 		*/
 
-		// zad 1.4
+        // zad 1.4
 		/*
 		System.out.println("Podaj liczbę do sprawdzenia, czy jest parzysta:");
 		int a = input.nextInt();
@@ -47,7 +47,7 @@ public class Main
 			System.out.println(a + " nie jest parzysta");
 		*/
 
-		// zad 1.5
+        // zad 1.5
 		/*
 		System.out.println("Podaj liczbę do sprawdzenia, czy jest podzielna przez 3 i przez 5:");
 		int a = input.nextInt();
@@ -58,21 +58,21 @@ public class Main
 			System.out.println(a + " nie jest podzielna przez 3 i 5");
 		*/
 
-		// zad 1.6
+        // zad 1.6
 		/*
 		System.out.println("Podaj liczbę do podniesienia do 3 potęgi:");
 		int a = input.nextInt();
 		System.out.println("3. potęga liczby " + a + " wynosi " + Math.pow(a, 3));
 		*/
 
-		// zad 1.7
+        // zad 1.7
 		/*
 		System.out.println("Podaj liczbę do policzenia pierwiastka kwadratowego:");
 		int a = input.nextInt();
 		System.out.println("Pierwiastek kwadratowy liczby " + a + " wynosi " + Math.sqrt(a));
 		*/
 
-		// zad 1.8
+        // zad 1.8
 		/*
 		System.out.println("Podaj 3 liczby do sprawdzenia, czy da się znich zbudować trójkąt prostokątny:");
 		int a = input.nextInt();
@@ -96,29 +96,29 @@ public class Main
 		System.out.println(drugi * drugi + trzeci * trzeci == max * max);
 		*/
 
-		// zad 2.1
+        // zad 2.1
 
-	}
+    }
 
-	private static int Dodawanie(int a, int b)
-	{
-		return a + b;
-	}
+    private static int Dodawanie(int a, int b)
+    {
+        return a + b;
+    }
 
-	private static int Odejmowanie(int a, int b)
-	{
-		return a - b;
-	}
+    private static int Odejmowanie(int a, int b)
+    {
+        return a - b;
+    }
 
-	private static int Iloczyn(int a, int b)
-	{
-		return a * b;
-	}
+    private static int Iloczyn(int a, int b)
+    {
+        return a * b;
+    }
 
-	private static boolean CzyParzysta(int a)
-	{
-		return a % 2 == 0;
-	}
+    private static boolean CzyParzysta(int a)
+    {
+        return a % 2 == 0;
+    }
 
 
 }

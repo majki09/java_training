@@ -1,20 +1,34 @@
 package com.majkisoft.obiektyipakiety;
 
-public class Human
+public class Human implements Mammal
 {
     private int age;
     private int weight;
     private int height;
+    private int health;
     private String name;
     private boolean sex;
 
-    public Human(int a, int w, int h, String n, boolean s)
+    public Human(int a, int w, int mHeight, int mHealth, String n, boolean s)
     {
         age = a;
         weight = w;
-        height = h;
+        height = mHeight;
+        health = mHealth;
         name = n;
         sex = s;
+    }
+
+    @Override
+    public void eat(int mKcal)
+    {
+        weight += mKcal;
+    }
+
+    public void sleep()
+    {
+        if (health < 100)
+            health += 1;
     }
 
     public int getAge()
